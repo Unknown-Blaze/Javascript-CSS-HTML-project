@@ -5,13 +5,25 @@ body {
 p {
     font-size: 18;
 }
+#btn0{
+    cursor: pointer;
+    border: 0.5px solid white;
+}
 .btnstyle {
     border: 5px solid hsl(241, 100%, 50%);
     font-family: "Times New Roman";
     font-weight: bold;
     width: 150px;
+    cursor: pointer;
 }
-.btnstyle:hover {
+.btnstyle2 {
+    border: 5px solid hsl(0, 100%, 50%);
+    font-family: "Times New Roman";
+    font-weight: bold;
+    width: 100px;
+    cursor: pointer;
+}
+.btnstyle:hover .btnstyle2:hover{
     color: white;
     background-color: black;
     transition: 0.75s;
